@@ -1,17 +1,51 @@
-body{
+*{
     margin: 0;
 }
+body{
+    background-color: rgb(241, 240, 240);
+}
 
+#main{
+    margin: 20px 5px 10px 5px;
+}
 #header{
     background-image: url(img/pattern.png);
     background-color: #4ea0ff;
+    background-size: 500px;
+    margin: 0;
     width: 100%;
     height: 120px;
-    
 }
-
 #logo{
     width: 220px;
     margin-top: 50px;
     margin-left: 10px;
+}
+#title{
+    font-size: 60px;
+}
+#p1{
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: gray;
+}
+#the_booleaner{
+    color:#2c88ad;
+}
+/*  header section */
+
+#tim_1, #tim_2{
+    width: 48%p;
+    height: 550px;
+}
+.marker{
+    background-color: yellow;
+}
+
+div>p{
+    margin: 20px 0 20px 0;
+}
+#ul{
+    margin-left: -20px;
 }
