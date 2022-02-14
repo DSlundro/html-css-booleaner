@@ -42,6 +42,7 @@ body{
 .marker{
     background-color: yellow;
 }
+/* p section */
 
 div>p{
     margin: 20px 0 20px 0;
@@ -49,7 +50,6 @@ div>p{
 #ul{
     margin-left: -20px;
 }
-
 #table_header{
     background-color: #20a9e5;
 }
@@ -59,7 +59,7 @@ div>p{
 #table{
     text-align: left;
     border-collapse: collapse;
-
+    margin-bottom: 20px;
 }
 #table_header{
     color: white;
@@ -70,4 +70,20 @@ td{
 }
 .size{
     width: 220px;
+}
+/* table section */
+
+#footer_title{
+    color: gray;
+    margin-top: 25px;
+}
+footer{
+    margin: 5px;
+}
+.img_descr{
+    position: relative;
+    font-size: 25px;
+    color: white;
+    top: 40px;
+    left: 10px;
 }
