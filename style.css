@@ -49,3 +49,25 @@ div>p{
 #ul{
     margin-left: -20px;
 }
+
+#table_header{
+    background-color: #20a9e5;
+}
+#row_1, #table_footer{
+    background-color: #b1e5f2;
+}
+#table{
+    text-align: left;
+    border-collapse: collapse;
+
+}
+#table_header{
+    color: white;
+    height: 10px;
+}
+td{
+    height: 40px;
+}
+.size{
+    width: 220px;
+}
