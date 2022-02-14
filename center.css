@@ -1,17 +1,23 @@
 body{
     background-color: rgb(241, 240, 240);
+    background-image: url(img/pattern.png);
+    margin: 0;
 }
 
 #main{
+    background-color:rgb(241, 240, 240, 0.9);
     width: 70%;
     height: auto;
     margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: black solid 1px;
 }
 /* body centered */
 #header{
-    background-image: url(img/pattern.png);
     background-color: #4ea0ff;
     background-size: 500px;
+    opacity: 0.9;
     margin: 0;
     width: 100%;
     height: 120px;
@@ -23,9 +29,10 @@ body{
 }
 #title{
     font-size: 60px;
+    margin: -10px 0px;
 }
 #p1{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-weight: bold;
     font-size: 20px;
     color: gray;
@@ -36,8 +43,9 @@ body{
 /*  header section */
 
 #tim_1, #tim_2{
-    width: 48%p;
-    height: 48%;
+    width: 49%;
+    height: 400px;
+    margin: 10px 0px;
 }
 .marker{
     background-color: yellow;
@@ -75,16 +83,19 @@ td{
 
 #footer_title{
     color: gray;
-    margin-top: 25px;
+    margin-bottom: -40px;
 }
 footer{
-    margin: 5px;
+    margin: 10px;
 }
 .img_descr{
     position: relative;
     font-size: 25px;
     color: white;
     top: 40px;
-    left: 10px;
+    left: 15px;
+}
+img{
+    margin: -30px 0;
 }
 /* footer*/
